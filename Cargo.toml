@@ -1,0 +1,14 @@
+[package]
+name = "rart"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.40"
+itertools = "0.14.0"
+ndarray = "0.16.1"
+rand = "0.9.0"
+
+[profile.release]
+opt-level = 3
+lto = true
